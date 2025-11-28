@@ -218,14 +218,16 @@ export default Screen = () => {
                               <a href={`${urlPagoPSE}${recibo.IDPSE}`} onMouseEnter={() => setIsHoveredPse(true)}
                                 onMouseLeave={() => setIsHoveredPse(false)} style={isHoveredPse ? estiloHover : estiloBase}
                               >
-                                <img style={{ maxWidth: "10%", cursor: "pointer" }} src="https://storage-masivdrive.masivapp.com/1703/98f65ca6-11a6-4aee-9260-9ade652ca57f/4794c789-5271-4343-89bd-01db134eed4b/eb9bcb10-b9d3-4c27-897c-05113a4a35b0/f5ae2a2c-4241-4220-a112-3e348bccc988.png" />
+                                {/*<img style={{ maxWidth: "10%", cursor: "pointer" }} src="https://storage-masivdrive.masivapp.com/1703/98f65ca6-11a6-4aee-9260-9ade652ca57f/4794c789-5271-4343-89bd-01db134eed4b/eb9bcb10-b9d3-4c27-897c-05113a4a35b0/f5ae2a2c-4241-4220-a112-3e348bccc988.png" />*/}
+                                 <img style={{ width: "40px", cursor: "pointer" }} src="https://storage-masivdrive.masivapp.com/1703/98f65ca6-11a6-4aee-9260-9ade652ca57f/4794c789-5271-4343-89bd-01db134eed4b/eb9bcb10-b9d3-4c27-897c-05113a4a35b0/f5ae2a2c-4241-4220-a112-3e348bccc988.png" />
                               </a>
                             ) :
                             (
                               <a onClick={() => mostrarAlertaError("Este recibo de matrícula no se puede pagar por PSE debido a que no se encontró un valor de matrícula para la fecha 1. Por favor, comuníquese con el área de Matriculas de su sede.")}
                                 onMouseLeave={() => setIsHoveredPse(false)} style={isHoveredPse ? estiloHover : estiloBase}
                               >
-                                <img style={{ maxWidth: "10%", cursor: "pointer" }} src="https://storage-masivdrive.masivapp.com/1703/98f65ca6-11a6-4aee-9260-9ade652ca57f/4794c789-5271-4343-89bd-01db134eed4b/eb9bcb10-b9d3-4c27-897c-05113a4a35b0/f5ae2a2c-4241-4220-a112-3e348bccc988.png" />
+                                {/* <img style={{ maxWidth: "10%", cursor: "pointer" }} src="https://storage-masivdrive.masivapp.com/1703/98f65ca6-11a6-4aee-9260-9ade652ca57f/4794c789-5271-4343-89bd-01db134eed4b/eb9bcb10-b9d3-4c27-897c-05113a4a35b0/f5ae2a2c-4241-4220-a112-3e348bccc988.png" /> */}
+                                <img style={{ width: "40px", cursor: "pointer" }} src="https://storage-masivdrive.masivapp.com/1703/98f65ca6-11a6-4aee-9260-9ade652ca57f/4794c789-5271-4343-89bd-01db134eed4b/eb9bcb10-b9d3-4c27-897c-05113a4a35b0/f5ae2a2c-4241-4220-a112-3e348bccc988.png" />
                               </a>
                             )
                           }
