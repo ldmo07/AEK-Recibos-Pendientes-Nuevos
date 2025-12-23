@@ -18,11 +18,11 @@ export const apikey2 = 'uxpWFePgheXvuP9Tun8TYxvjb0FgeSLH';
 export const urlGenearIdPSE='https://uniminuto.test.digibee.io/pipeline/uniminuto/v1/pasarelas-pago/linkPagoZonaPagos'
 export const urlPagoPSE = 'https://www.zonapagos.com/t_uniminutopasp/pago.asp?estado_pago=iniciar_pago&identificador=' //'https://www.zonapagosdemo.com/t_uniminuto/pago.asp?estado_pago=iniciar_pago&identificador='
 export const urlConsultarEstudiantesNuevos ='https://uniminuto.test.digibee.io/pipeline/uniminuto/v1/servicios-banner-dos/nuevosEstudiantes?doc=[1]&date=[2]'
-export const urlEnvioCorreos = 'https://backendtuclave.uniminuto.edu/Helper/enviarCorreoSinAutenticar'
 
 //DATOS DE AUTENTICACION DEL BACKEND DE TU CLAVE
 export const userTuclave = 'TuclaveBackendUser'
 export const passTuclave = 'MTIzNDU2$%'
+export const urlEnvioCorreos = 'https://backendtuclave.uniminuto.edu/Helper/enviarCorreoSinAutenticar'
 
 //DATOS DE SMTP Y CORREO UNIMINUTO ENCRIPTADO
 export const smtUniminutoEncriptado = 'XSpmd6kKDuy5LAjJF0dmVoFJUd8QJ14EIXDRddIH4yw=' // smtp.uniminuto.edu

@@ -81,7 +81,7 @@ export default Screen = () => {
           const correoEnc = encrypt(keyEncryptDecrypt, mail2);
           //Realizo el envio  del correo
           await enviarCorreoElectronico(correoEnc, mail)
-          await mostrarAlertaConfirmacionSinCancelar(mensaje)
+          await mostrarAlertaConfirmacionSinCancelar(mensaje,"Ok")
 
         } else {
           mostrarAlertaError("No tienes un correo alterno asignado")
