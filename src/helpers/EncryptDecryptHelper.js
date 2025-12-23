@@ -41,4 +41,22 @@ export const  encrypt = (key,text) => {
     return encrypted.toString();
 }
 
+export const hideText = (text, inicio, cantidad) => {
+  if (text != undefined) {
+    // Verificar que los parámetros sean válidos
+    if (inicio < 0 || cantidad < 0 || inicio + cantidad > text.length) {
+      return "Parámetros inválidos";
+    }
+
+    // Crear la parte oculta con asteriscos
+    let parteOculta = '*'.repeat(cantidad);
+
+    // Construir el nuevo string
+    let nuevoTexto = text.slice(0, inicio) + parteOculta + text.slice(inicio + cantidad);
+
+    return nuevoTexto;
+  }
+
+}
+
 export const keyEncryptDecrypt="Tuclave.uniminuto.edu.co"
