@@ -99,7 +99,7 @@ export const useAxiosReciboPendientes = (/*userData*/) => {
 
         const url = urlGenearIdPSE;//'https://uniminuto.test.digibee.io/pipeline/uniminuto/v1/pasarelas-pago/linkPagoZonaPagos';
         const headers = {
-            'apikey': 'ITnjVcrLWfYpY2B246EcrWO6Hln3LD7a',//apikey2,//'uxpWFePgheXvuP9Tun8TYxvjb0FgeSLH',
+            'apikey': apikey2,//'uxpWFePgheXvuP9Tun8TYxvjb0FgeSLH',
             'Content-Type': 'application/json',
             'SOAPAction': 'ZonaPagosPSE'
         };
