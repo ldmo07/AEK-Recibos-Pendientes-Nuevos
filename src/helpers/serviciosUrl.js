@@ -12,12 +12,12 @@ export const urlPagoPSE= 'https://www.zonapagos.com/t_uniminuto/pago.asp?estado_
 //DATOS DE DESARROLLO
 export const urlObtenerRecibosPendientes = 'https://uniminuto.test.digibee.io/pipeline/uniminuto/v1/servicios-banner/obtenerRecibosPendientes';
 export const urlGetUserDetails = 'https://uniminuto.test.digibee.io/pipeline/uniminuto/v1/servicios-banner/getUserDetails';
-export const urlRutaBaseRecibosPendientes = 'http://www.uniminuto.edu/pecuniariosqa';
+export const urlRutaBaseRecibosPendientes = 'https://wwwquas.uniminuto.edu/pecuniariosqa'; //'http://www.uniminuto.edu/pecuniariosqa';
 export const apikey='5H9CcvkLZJTgPDDCXTXTI7KC90k6prl0';
 export const apikey2 = 'uxpWFePgheXvuP9Tun8TYxvjb0FgeSLH';
-export const urlGenearIdPSE='https://uniminuto.test.digibee.io/pipeline/uniminuto/v1/pasarelas-pago/linkPagoZonaPagos'
-export const urlPagoPSE = 'https://www.zonapagos.com/t_uniminutopasp/pago.asp?estado_pago=iniciar_pago&identificador=' //'https://www.zonapagosdemo.com/t_uniminuto/pago.asp?estado_pago=iniciar_pago&identificador='
-export const urlConsultarEstudiantesNuevos ='https://uniminuto.test.digibee.io/pipeline/uniminuto/v1/servicios-banner-dos/nuevosEstudiantes?doc=[1]&date=[2]'
+export const urlGenearIdPSE='https://uniminuto.api.digibee.io/pipeline/uniminuto/v1/pasarelas-pago/linkPagoZonaPagos'; //'https://uniminuto.test.digibee.io/pipeline/uniminuto/v1/pasarelas-pago/linkPagoZonaPagos'
+export const urlPagoPSE = 'https://www.zonapagos.com/t_uniminuto/pago.asp?estado_pago=iniciar_pago&identificador=' //'https://www.zonapagos.com/t_uniminutopasp/pago.asp?estado_pago=iniciar_pago&identificador='; //'https://www.zonapagosdemo.com/t_uniminuto/pago.asp?estado_pago=iniciar_pago&identificador='
+export const urlConsultarEstudiantesNuevos = 'https://uniminuto.test.digibee.io/pipeline/uniminuto/v1/servicios-banner/nuevosEstudiantes?doc=[1]&date=[2]'; //'https://uniminuto.test.digibee.io/pipeline/uniminuto/v1/servicios-banner-dos/nuevosEstudiantes?doc=[1]&date=[2]'
 
 //DATOS DE AUTENTICACION DEL BACKEND DE TU CLAVE
 export const userTuclave = 'TuclaveBackendUser'

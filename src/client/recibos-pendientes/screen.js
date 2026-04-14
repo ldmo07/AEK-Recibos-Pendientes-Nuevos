@@ -6,6 +6,7 @@ import { mostrarAlertaError, mostrarAlertaConfirmacionSinCancelar, mostrarAlerta
 import { useAxiosEstudiantesNuevos } from "../../hooks/useAxiosEstudiantesNuevos";
 import { useAxiosSendEmails } from "../../hooks/useAxiosSendEmails";
 import { encrypt, hideText, keyEncryptDecrypt } from "../../helpers/EncryptDecryptHelper";
+import {CountdownWrapper} from "../../components/CountDownWrapper";
 
 //DEFINO LOS ESTILOS
 const estiloFuentes = {
@@ -99,7 +100,7 @@ export default Screen = () => {
   }
 
   return (
-    <>
+    <CountdownWrapper seconds={10}>
       <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
 
       <div className="m-2">
@@ -271,7 +272,7 @@ export default Screen = () => {
 
       }
 
-    </>
+    </CountdownWrapper>
   );
 
 
